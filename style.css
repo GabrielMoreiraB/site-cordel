@@ -38,8 +38,12 @@ section{
     padding-bottom: 10vh;
 }
 
+section> imagens {
+    box-shadow: 6px 6px 13px black;
+}
+
 main section p {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-family: var(--fonte3);
     font-size: 3vw;
     padding-left: 2vw;
@@ -59,6 +63,7 @@ section.imagem > p{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow: 1px 1px 0px black;
 }
 
 #foto2 {
@@ -66,6 +71,7 @@ section.imagem > p{
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
